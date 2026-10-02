@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.23.4](https://github.com/star-nebula/skillshare/compare/v0.23.4...v0.23.4) (2026-10-02)
+
+
+* **release:** release 0.23.2 ([99f45ce](https://github.com/star-nebula/skillshare/commit/99f45ce924bcad29f895dea3597fab16c9d5523d))
+
+
+### New Features
+
+* **doctor:** check MCP servers, hooks, plugins and extras drift ([5dd0260](https://github.com/star-nebula/skillshare/commit/5dd0260ad34c277496058e03d7b712efc3bc88ba))
+* **hooks:** manage Git config hooks ([#310](https://github.com/star-nebula/skillshare/issues/310)) ([1a2389d](https://github.com/star-nebula/skillshare/commit/1a2389dea21daffb1a6186f6aa1244eea6a161d3))
+* **mcp:** validate Pi 1.0 oauth.authServerMetadataUrl ([#318](https://github.com/star-nebula/skillshare/issues/318)) ([8af5405](https://github.com/star-nebula/skillshare/commit/8af54053ccbe49a566bb107c057020d31254737b))
+* **ui:** set backup retention limits and delete all backups ([ffabe1a](https://github.com/star-nebula/skillshare/commit/ffabe1a86a250b545e09436f59801837f529d1a2))
+* **ui:** share several plugins as one install command ([b86b52a](https://github.com/star-nebula/skillshare/commit/b86b52a49151e7c397d75590ea109f80d5df5436))
+
+
+### Bug Fixes
+
+* **hooks:** Git hook follow-ups from [#310](https://github.com/star-nebula/skillshare/issues/310) ([#317](https://github.com/star-nebula/skillshare/issues/317)) ([9bdc1b3](https://github.com/star-nebula/skillshare/commit/9bdc1b3a22780acf2535bbd196fc7d68b80236c5))
+* **plugin:** clean up and explain Skillshare marketplaces ([#321](https://github.com/star-nebula/skillshare/issues/321)) ([7f3b5e7](https://github.com/star-nebula/skillshare/commit/7f3b5e7b1ef9f7c9f56d68b8adaf02db3ff3c6d4))
+* **plugin:** remove Claude marketplaces in every scope and explain skill clashes ([#323](https://github.com/star-nebula/skillshare/issues/323)) ([d17c1ab](https://github.com/star-nebula/skillshare/commit/d17c1ab013e2dcd9d999792b8577ab8217603939))
+* **ui:** add shared plugins globally ([b2f7ee3](https://github.com/star-nebula/skillshare/commit/b2f7ee395ceaa56f942982346742c7218b01dd82))
+
 ## [0.23.4] - 2026-10-01
 
 ### Bug Fixes
