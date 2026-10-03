@@ -110,16 +110,19 @@ jobs:
         shell: bash
         run: |
           go test -v -count=1 \
+            ./internal/audit \
             ./internal/backup \
             ./internal/check \
             ./internal/childproc \
             ./internal/hub \
             ./internal/instructions \
+            ./internal/memory \
             ./internal/projectdir \
             ./internal/resource \
             ./internal/search \
             ./internal/skill \
             ./internal/skillignore \
+            ./internal/trash \
             ./internal/ui \
             ./internal/uidist \
             ./internal/utils \
