@@ -109,22 +109,7 @@ jobs:
       - name: Unit Tests
         shell: bash
         run: |
-          go test -v -count=1 \
-            ./internal/backup \
-            ./internal/check \
-            ./internal/childproc \
-            ./internal/hub \
-            ./internal/instructions \
-            ./internal/projectdir \
-            ./internal/resource \
-            ./internal/search \
-            ./internal/skill \
-            ./internal/skillignore \
-            ./internal/ui \
-            ./internal/uidist \
-            ./internal/utils \
-            ./internal/validate \
-            ./internal/version
+          go test -v -count=1 ./internal/...
 
   docker-sandbox-offline:
     if: *not-release-duplicate
