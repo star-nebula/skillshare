@@ -127,6 +127,7 @@ jobs:
             ./internal/search \
             ./internal/skill \
             ./internal/skillignore \
+            ./internal/sourcewalk \
             ./internal/sync \
             ./internal/trash \
             ./internal/ui \
